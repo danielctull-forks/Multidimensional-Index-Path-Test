@@ -7,47 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24C3BF03194B4AB200667AED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C3BF02194B4AB200667AED /* Foundation.framework */; };
-		24C3BF05194B4AB200667AED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C3BF04194B4AB200667AED /* CoreGraphics.framework */; };
-		24C3BF07194B4AB200667AED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C3BF06194B4AB200667AED /* UIKit.framework */; };
-		24C3BF0D194B4AB200667AED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24C3BF0B194B4AB200667AED /* InfoPlist.strings */; };
 		24C3BF0F194B4AB200667AED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3BF0E194B4AB200667AED /* main.m */; };
 		24C3BF13194B4AB200667AED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3BF12194B4AB200667AED /* AppDelegate.m */; };
 		24C3BF15194B4AB200667AED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C3BF14194B4AB200667AED /* Images.xcassets */; };
-		24C3BF1C194B4AB200667AED /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C3BF1B194B4AB200667AED /* XCTest.framework */; };
-		24C3BF1D194B4AB200667AED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C3BF02194B4AB200667AED /* Foundation.framework */; };
-		24C3BF1E194B4AB200667AED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C3BF06194B4AB200667AED /* UIKit.framework */; };
-		24C3BF26194B4AB200667AED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24C3BF24194B4AB200667AED /* InfoPlist.strings */; };
-		24C3BF28194B4AB200667AED /* Multidimensional_Index_Path_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3BF27194B4AB200667AED /* Multidimensional_Index_Path_TestTests.m */; };
+		24C3BF32194B4AD700667AED /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C3BF31194B4AD700667AED /* iPhone.storyboard */; };
+		24C3BF35194B4B1D00667AED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3BF34194B4B1D00667AED /* ViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		24C3BF1F194B4AB200667AED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 24C3BEF7194B4AB200667AED /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 24C3BEFE194B4AB200667AED;
-			remoteInfo = "Multidimensional Index Path Test";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		24C3BEFF194B4AB200667AED /* Multidimensional Index Path Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multidimensional Index Path Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24C3BF02194B4AB200667AED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		24C3BF04194B4AB200667AED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		24C3BF06194B4AB200667AED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		24C3BF0A194B4AB200667AED /* Multidimensional Index Path Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Multidimensional Index Path Test-Info.plist"; sourceTree = "<group>"; };
-		24C3BF0C194B4AB200667AED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24C3BF0E194B4AB200667AED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		24C3BF10194B4AB200667AED /* Multidimensional Index Path Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Multidimensional Index Path Test-Prefix.pch"; sourceTree = "<group>"; };
 		24C3BF11194B4AB200667AED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24C3BF12194B4AB200667AED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24C3BF14194B4AB200667AED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		24C3BF1A194B4AB200667AED /* Multidimensional Index Path TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multidimensional Index Path TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24C3BF1B194B4AB200667AED /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		24C3BF23194B4AB200667AED /* Multidimensional Index Path TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Multidimensional Index Path TestTests-Info.plist"; sourceTree = "<group>"; };
-		24C3BF25194B4AB200667AED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		24C3BF27194B4AB200667AED /* Multidimensional_Index_Path_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Multidimensional_Index_Path_TestTests.m; sourceTree = "<group>"; };
+		24C3BF31194B4AD700667AED /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		24C3BF33194B4B1D00667AED /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24C3BF34194B4B1D00667AED /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,19 +31,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24C3BF05194B4AB200667AED /* CoreGraphics.framework in Frameworks */,
-				24C3BF07194B4AB200667AED /* UIKit.framework in Frameworks */,
-				24C3BF03194B4AB200667AED /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		24C3BF17194B4AB200667AED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24C3BF1C194B4AB200667AED /* XCTest.framework in Frameworks */,
-				24C3BF1E194B4AB200667AED /* UIKit.framework in Frameworks */,
-				24C3BF1D194B4AB200667AED /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				24C3BF08194B4AB200667AED /* Multidimensional Index Path Test */,
-				24C3BF21194B4AB200667AED /* Multidimensional Index Path TestTests */,
-				24C3BF01194B4AB200667AED /* Frameworks */,
 				24C3BF00194B4AB200667AED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,20 +49,8 @@
 			isa = PBXGroup;
 			children = (
 				24C3BEFF194B4AB200667AED /* Multidimensional Index Path Test.app */,
-				24C3BF1A194B4AB200667AED /* Multidimensional Index Path TestTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		24C3BF01194B4AB200667AED /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				24C3BF02194B4AB200667AED /* Foundation.framework */,
-				24C3BF04194B4AB200667AED /* CoreGraphics.framework */,
-				24C3BF06194B4AB200667AED /* UIKit.framework */,
-				24C3BF1B194B4AB200667AED /* XCTest.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		24C3BF08194B4AB200667AED /* Multidimensional Index Path Test */ = {
@@ -110,38 +59,13 @@
 				24C3BF11194B4AB200667AED /* AppDelegate.h */,
 				24C3BF12194B4AB200667AED /* AppDelegate.m */,
 				24C3BF14194B4AB200667AED /* Images.xcassets */,
-				24C3BF09194B4AB200667AED /* Supporting Files */,
+				24C3BF0A194B4AB200667AED /* Multidimensional Index Path Test-Info.plist */,
+				24C3BF0E194B4AB200667AED /* main.m */,
+				24C3BF31194B4AD700667AED /* iPhone.storyboard */,
+				24C3BF33194B4B1D00667AED /* ViewController.h */,
+				24C3BF34194B4B1D00667AED /* ViewController.m */,
 			);
 			path = "Multidimensional Index Path Test";
-			sourceTree = "<group>";
-		};
-		24C3BF09194B4AB200667AED /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				24C3BF0A194B4AB200667AED /* Multidimensional Index Path Test-Info.plist */,
-				24C3BF0B194B4AB200667AED /* InfoPlist.strings */,
-				24C3BF0E194B4AB200667AED /* main.m */,
-				24C3BF10194B4AB200667AED /* Multidimensional Index Path Test-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		24C3BF21194B4AB200667AED /* Multidimensional Index Path TestTests */ = {
-			isa = PBXGroup;
-			children = (
-				24C3BF27194B4AB200667AED /* Multidimensional_Index_Path_TestTests.m */,
-				24C3BF22194B4AB200667AED /* Supporting Files */,
-			);
-			path = "Multidimensional Index Path TestTests";
-			sourceTree = "<group>";
-		};
-		24C3BF22194B4AB200667AED /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				24C3BF23194B4AB200667AED /* Multidimensional Index Path TestTests-Info.plist */,
-				24C3BF24194B4AB200667AED /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,24 +88,6 @@
 			productReference = 24C3BEFF194B4AB200667AED /* Multidimensional Index Path Test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		24C3BF19194B4AB200667AED /* Multidimensional Index Path TestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 24C3BF2E194B4AB200667AED /* Build configuration list for PBXNativeTarget "Multidimensional Index Path TestTests" */;
-			buildPhases = (
-				24C3BF16194B4AB200667AED /* Sources */,
-				24C3BF17194B4AB200667AED /* Frameworks */,
-				24C3BF18194B4AB200667AED /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				24C3BF20194B4AB200667AED /* PBXTargetDependency */,
-			);
-			name = "Multidimensional Index Path TestTests";
-			productName = "Multidimensional Index Path TestTests";
-			productReference = 24C3BF1A194B4AB200667AED /* Multidimensional Index Path TestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,11 +96,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Daniel Tull";
-				TargetAttributes = {
-					24C3BF19194B4AB200667AED = {
-						TestTargetID = 24C3BEFE194B4AB200667AED;
-					};
-				};
 			};
 			buildConfigurationList = 24C3BEFA194B4AB200667AED /* Build configuration list for PBXProject "Multidimensional Index Path Test" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -209,7 +110,6 @@
 			projectRoot = "";
 			targets = (
 				24C3BEFE194B4AB200667AED /* Multidimensional Index Path Test */,
-				24C3BF19194B4AB200667AED /* Multidimensional Index Path TestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -219,16 +119,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24C3BF0D194B4AB200667AED /* InfoPlist.strings in Resources */,
 				24C3BF15194B4AB200667AED /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		24C3BF18194B4AB200667AED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24C3BF26194B4AB200667AED /* InfoPlist.strings in Resources */,
+				24C3BF32194B4AD700667AED /* iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,47 +131,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C3BF35194B4B1D00667AED /* ViewController.m in Sources */,
 				24C3BF13194B4AB200667AED /* AppDelegate.m in Sources */,
 				24C3BF0F194B4AB200667AED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		24C3BF16194B4AB200667AED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24C3BF28194B4AB200667AED /* Multidimensional_Index_Path_TestTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		24C3BF20194B4AB200667AED /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 24C3BEFE194B4AB200667AED /* Multidimensional Index Path Test */;
-			targetProxy = 24C3BF1F194B4AB200667AED /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		24C3BF0B194B4AB200667AED /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24C3BF0C194B4AB200667AED /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		24C3BF24194B4AB200667AED /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24C3BF25194B4AB200667AED /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		24C3BF29194B4AB200667AED /* Debug */ = {
@@ -358,7 +216,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Multidimensional Index Path Test/Multidimensional Index Path Test-Prefix.pch";
 				INFOPLIST_FILE = "Multidimensional Index Path Test/Multidimensional Index Path Test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -371,50 +228,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Multidimensional Index Path Test/Multidimensional Index Path Test-Prefix.pch";
 				INFOPLIST_FILE = "Multidimensional Index Path Test/Multidimensional Index Path Test-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		24C3BF2F194B4AB200667AED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Multidimensional Index Path Test.app/Multidimensional Index Path Test";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Multidimensional Index Path Test/Multidimensional Index Path Test-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Multidimensional Index Path TestTests/Multidimensional Index Path TestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		24C3BF30194B4AB200667AED /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Multidimensional Index Path Test.app/Multidimensional Index Path Test";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Multidimensional Index Path Test/Multidimensional Index Path Test-Prefix.pch";
-				INFOPLIST_FILE = "Multidimensional Index Path TestTests/Multidimensional Index Path TestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -435,14 +251,6 @@
 			buildConfigurations = (
 				24C3BF2C194B4AB200667AED /* Debug */,
 				24C3BF2D194B4AB200667AED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		24C3BF2E194B4AB200667AED /* Build configuration list for PBXNativeTarget "Multidimensional Index Path TestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				24C3BF2F194B4AB200667AED /* Debug */,
-				24C3BF30194B4AB200667AED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
