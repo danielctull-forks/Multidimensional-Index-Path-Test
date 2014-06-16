@@ -12,6 +12,8 @@
 		24C3BF15194B4AB200667AED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C3BF14194B4AB200667AED /* Images.xcassets */; };
 		24C3BF32194B4AD700667AED /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C3BF31194B4AD700667AED /* iPhone.storyboard */; };
 		24C3BF35194B4B1D00667AED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3BF34194B4B1D00667AED /* ViewController.m */; };
+		24C3BF38194B4D0300667AED /* Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3BF37194B4D0300667AED /* Layout.m */; };
+		24C3BF3E194B505A00667AED /* Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3BF3D194B505A00667AED /* Presenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		24C3BF31194B4AD700667AED /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
 		24C3BF33194B4B1D00667AED /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		24C3BF34194B4B1D00667AED /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24C3BF36194B4D0300667AED /* Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Layout.h; sourceTree = "<group>"; };
+		24C3BF37194B4D0300667AED /* Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Layout.m; sourceTree = "<group>"; };
+		24C3BF3C194B505A00667AED /* Presenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presenter.h; sourceTree = "<group>"; };
+		24C3BF3D194B505A00667AED /* Presenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,10 @@
 				24C3BF31194B4AD700667AED /* iPhone.storyboard */,
 				24C3BF33194B4B1D00667AED /* ViewController.h */,
 				24C3BF34194B4B1D00667AED /* ViewController.m */,
+				24C3BF36194B4D0300667AED /* Layout.h */,
+				24C3BF37194B4D0300667AED /* Layout.m */,
+				24C3BF3C194B505A00667AED /* Presenter.h */,
+				24C3BF3D194B505A00667AED /* Presenter.m */,
 			);
 			path = "Multidimensional Index Path Test";
 			sourceTree = "<group>";
@@ -132,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C3BF35194B4B1D00667AED /* ViewController.m in Sources */,
+				24C3BF3E194B505A00667AED /* Presenter.m in Sources */,
+				24C3BF38194B4D0300667AED /* Layout.m in Sources */,
 				24C3BF13194B4AB200667AED /* AppDelegate.m in Sources */,
 				24C3BF0F194B4AB200667AED /* main.m in Sources */,
 			);
